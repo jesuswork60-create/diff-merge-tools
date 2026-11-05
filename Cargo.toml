@@ -1,0 +1,17 @@
+[package]
+name = "diff-merge-tools"
+version = "0.1.0"
+edition = "2021"
+description = "Line diffs, unified patches and three-way merges, as a library and a small command line tool"
+license = "MIT"
+authors = ["jesuswork60-create"]
+
+[lib]
+name = "diffmerge"
+path = "src/lib.rs"
+
+[[bin]]
+name = "dmt"
+path = "src/main.rs"
+
+[dependencies]
